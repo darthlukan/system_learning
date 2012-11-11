@@ -17,6 +17,7 @@ import logging
     os.path.getsize(file) returns the size of our file in bytes.
 '''
 
+# Set file to the command line argument after our script:
 file = sys.argv[1]
 print(os.path.getsize(file))
 # Output: filesize in bytes
